@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1K_eid_2ae35x_ByS_0OMjyjIY60lq_XS
 """
 
-!pip install -q gradio pdfplumber gspread google-auth
 import gradio as gr
 import pdfplumber
 import uuid
@@ -15,8 +14,6 @@ import pandas as pd
 
 # (Assume your Google Sheets auth code is here from earlier)
 
-from google.colab import auth
-auth.authenticate_user()
 import gspread
 from google.auth import default
 
